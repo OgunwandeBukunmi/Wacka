@@ -16,7 +16,7 @@ export default function App() {
       <section className="hero text-white py-16 px-8 flex flex-col md:flex-row items-center justify-between gap-12">
         
         {/* Left Content */}
-        <div className="hero-content max-w-xl text-center md:text-left p-8">
+        <div className="hero-content max-w-lg md:max-w-xl text-center md:text-left p-8">
           <h1 className="text-7xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-500 to-white animate-pulse">
             $WACKA
           </h1>
@@ -24,7 +24,7 @@ export default function App() {
             The Next Meme Coin You’ll Wish You Found Early
           </p>
 
-          <div className="coin-info bg-gradient-to-r from-indigo-700 via-purple-900 to-pink-700 p-6 rounded-3xl shadow-2xl text-lg font-mono">
+          <div className="coin-info bg-gradient-to-r from-indigo-700 via-purple-900 to-pink-700 p-6 mx-8 rounded-3xl shadow-2xl text-lg font-mono">
             <p className="flex items-center justify-center gap-3 m-4 text-sm md:text-lg">
               4uFPy4nSBJVKvhSePfhdqN3apodJHVeR8Mv8xvfMpump
               <span
