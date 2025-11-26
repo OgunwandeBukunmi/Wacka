@@ -24,7 +24,7 @@ export default function App() {
             The Next Meme Coin You’ll Wish You Found Early
           </p>
 
-          <div className="coin-info bg-gradient-to-r from-indigo-700 via-purple-900 to-pink-700 p-6 mx-8 rounded-3xl shadow-2xl text-lg font-mono">
+          <div className="coin-info bg-gradient-to-r from-indigo-700 via-purple-900 to-pink-700 p-6 mx-8 mx-0 rounded-3xl shadow-2xl text-lg font-mono">
             <p className="flex items-center justify-center gap-3 m-4 text-sm md:text-lg">
               4uFPy4nSBJVKvhSePfhdqN3apodJHVeR8Mv8xvfMpump
               <span
