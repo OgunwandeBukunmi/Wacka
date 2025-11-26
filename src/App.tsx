@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import { FiCopy } from "react-icons/fi";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   const handleCopy = () => {
@@ -50,7 +51,7 @@ export default function App() {
         </div>
       </section>
 
-   
+   <Analytics/>
     </section>
   );
 }
