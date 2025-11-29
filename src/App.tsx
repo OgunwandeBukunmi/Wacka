@@ -50,13 +50,16 @@ export default function App() {
 
         {/* Right Video */}
         <div className="video-wrapper w-full md:w-1/2 flex justify-center md:justify-end">
-          <video
-            src="/wacka_animation.mp4"
-            className="rounded-full border-4 sm:border-6 md:border-8 border-yellow-400 shadow-2xl w-full"
-            muted
-            autoPlay
-            loop
-          ></video>
+     <video
+  src="/wacka_animation.mp4"
+  className="rounded-full border-4 sm:border-6 md:border-8 border-yellow-400 shadow-2xl w-full"
+  muted
+  autoPlay
+  loop
+  playsInline
+  disablePictureInPicture
+  controls={false}
+></video>
         </div>
       </section>
     </section>
