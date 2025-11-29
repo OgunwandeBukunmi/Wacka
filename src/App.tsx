@@ -24,8 +24,8 @@ export default function App() {
           </p>
 
           <div className="text-white items-center coin-info   rounded-2xl md:rounded-3xl shadow-2xl text-base sm:text-lg font-mono">
-            <p className="flex text-sm bg-gradient-to-r from-indigo-700 via-purple-900 to-pink-700  border-2 border-yellow-300   justify-center  gap-2 mb-4 p-4 rounded-lg ">
-              <span> 4uFPy4nSBJVKvhSePfhdqN3apodJHVeR8Mv8xvfMpump</span>
+            <p className="flex text-sm md:text-lg bg-gradient-to-r from-indigo-700 via-purple-900 to-pink-700  border-2 border-yellow-300   justify-center  gap-2 mb-4 p-4 rounded-lg ">
+              <span> 4uFPy4nSBJVKvhSePfhd<br className=" md:hidden" />qN3apodJHVeR8Mv8xvfMpump</span>
              
               <span
                 onClick={handleCopy}
